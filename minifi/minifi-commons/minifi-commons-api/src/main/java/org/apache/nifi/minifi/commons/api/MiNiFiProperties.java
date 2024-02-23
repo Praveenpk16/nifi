@@ -52,7 +52,7 @@ public enum MiNiFiProperties {
     JAVA_ARG_13("java.arg.13", null, false, true, VALID),
     JAVA_ARG_14("java.arg.14", null, false, true, VALID),
     NIFI_MINIFI_FLOW_CONFIG("nifi.minifi.flow.config", "./conf/flow.json.gz", false, false, VALID),
-    NIFI_MINIFI_FLOW_MAX_CONCURRENT_THREADS("nifi.minifi.flow.max.concurrent.threads", null, false, true, VALID),
+    NIFI_MINIFI_FLOW_MAX_CONCURRENT_THREADS("nifi.minifi.flow.max.concurrent.threads", 1, false, true, VALID),
     NIFI_MINIFI_SECURITY_KEYSTORE("nifi.minifi.security.keystore", null, false, false, VALID),
     NIFI_MINIFI_SECURITY_KEYSTORE_TYPE("nifi.minifi.security.keystoreType", null, false, false, VALID),
     NIFI_MINIFI_SECURITY_KEYSTORE_PASSWD("nifi.minifi.security.keystorePasswd", null, true, false, VALID),
